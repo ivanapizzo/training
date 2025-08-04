@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",                   // O CommonJS si solo lo usás en Node
+    "lib": ["ES2020", "DOM"],             // ⚠️ Acá cargás el DOM sin errores
+    "types": ["node"],                    // ⚠️ Cargás solo los tipos explícitos de Node
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,                 // Evita conflictos entre libs como DOM vs Node
+    "outDir": "dist",
+    "rootDir": "dist/src"
+  },
+  "include": ["dist/src"],
+  "exclude": ["node_modules"]
+}
+
+
+
