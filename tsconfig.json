@@ -9,9 +9,9 @@
     "strict": true,
     "skipLibCheck": true,                 // Evita conflictos entre libs como DOM vs Node
     "outDir": "dist",
-    "rootDir": "dist/src"
+    "rootDir": "src"
   },
-  "include": ["dist/src"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
 
