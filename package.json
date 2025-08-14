@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "dev1": "tsc --watch",
+    "dev1": "tsc --watch --preserveWatchOutput & nodemon --watch dist --ext js --exec node dist/index.js",
     "dev2": "nodemon --watch src --ext ts --exec tsx src/index.ts"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
     "chalk": "^5.4.1"
   },
   "devDependencies": {
+    "@types/node": "^24.2.1",
     "nodemon": "^3.1.10",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
