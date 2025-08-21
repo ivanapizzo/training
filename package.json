@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
+    "devNode": "nodemon --watch dist --ext js --exec node dist/index.js",
     "dev1": "tsc --watch --preserveWatchOutput & nodemon --watch dist --ext js --exec node dist/index.js",
-    "dev2": "nodemon --watch src --ext ts --exec tsx src/index.ts"
+    "dev2": "nodemon --watch src --ext ts --exec tsx src/index.ts",
+    "dev3": "tsx watch src/index.ts",
+    "dev4": "nodemon --watch src/index.ts --exec echo src/index.ts > ivana.txt"
   },
   "keywords": [],
   "author": "",

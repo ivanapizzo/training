@@ -1,6 +1,5 @@
 
 
-let a:number = 2;
+let a:number = 7;
 
 console.log(a)
-
