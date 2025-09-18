@@ -11,11 +11,9 @@
     "dev2": "nodemon --watch src --ext ts --exec tsx src/index.ts",
     "dev3": "tsx watch src/index.ts",
     "dev4": "nodemon --watch src/index.ts --exec echo src/index.ts > ivana.txt",
-
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:run": "vitest run"
-
   },
   "keywords": [],
   "author": "",
